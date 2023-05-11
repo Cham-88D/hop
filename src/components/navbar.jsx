@@ -28,7 +28,7 @@ const Navbar = () => {
                           className="w-20"
                       />
                     </span>
-                    <span>Hope</span>
+                    <span className={"text-3xl"}>Hope</span>
                   </span>
                                 </Link>
 
@@ -57,17 +57,17 @@ const Navbar = () => {
 
                                 <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
                                     <>
-                                        <Link href="/" className={`${active === '/' ? "bg-pink-100 " : "text-pink-600"} w-full px-4 py-2 -ml-4 rounded-md dark:text-gray-300 hover:text-pink-400 focus:text-pink-400 focus:bg-pink-100 dark:focus:bg-gray-800 focus:outline-none`}>
+                                        <Link href="/" className={`${active === '/' ? "bg-pink-100 " : "text-pink-600"} text-xl w-full px-4 py-2 -ml-4 rounded-md dark:text-gray-300 hover:text-pink-400 focus:text-pink-400 focus:bg-pink-100 dark:focus:bg-gray-800 focus:outline-none`}>
                                             Home
                                         </Link>
-                                        <Link  href="/" className={`${active === '/about' ? "bg-pink-100 " : "text-pink-600"} w-full px-4 py-2 -ml-4  rounded-md dark:text-gray-300 hover:text-pink-400 focus:text-pink-400 focus:bg-pink-100 dark:focus:bg-gray-800 focus:outline-none`}>
+                                        <Link  href="/" className={`${active === '/about' ? "bg-pink-100 " : "text-pink-600"} text-xl w-full px-4 py-2 -ml-4  rounded-md dark:text-gray-300 hover:text-pink-400 focus:text-pink-400 focus:bg-pink-100 dark:focus:bg-gray-800 focus:outline-none`}>
                                             About Us
                                         </Link>
-                                        <Link  href="/" className={`${active === '/comm' ? "bg-pink-100 " : "text-pink-600"} w-full px-4 py-2 -ml-4 rounded-md dark:text-gray-300 hover:text-pink-400 focus:text-pink-400 focus:bg-pink-100 dark:focus:bg-gray-800 focus:outline-none`}>
+                                        <Link  href="/" className={`${active === '/comm' ? "bg-pink-100 " : "text-pink-600"} text-xl  w-full px-4 py-2 -ml-4 rounded-md dark:text-gray-300 hover:text-pink-400 focus:text-pink-400 focus:bg-pink-100 dark:focus:bg-gray-800 focus:outline-none`}>
                                             Community
                                         </Link>
 
-                                        <Link href="/login" className="w-full px-6 py-2 mt-3 text-center text-white bg-pink-500 rounded-md lg:ml-5">
+                                        <Link href="/login" className=" text-xl w-full px-6 py-2 mt-3 text-center text-white bg-pink-500 rounded-md lg:ml-5">
                                            Login
                                         </Link>
                                     </>
@@ -81,17 +81,17 @@ const Navbar = () => {
                 <div className="hidden text-center lg:flex lg:items-center">
                     <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
                         <li className="mr-3 nav__item" >
-                            <Link href="/" className={`${active === "/" ? "bg-pink-100 " : "text-pink-600"} inline-block px-4 py-2 text-lg font-normal   no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-gray-800`}>
+                            <Link href="/" className={`${active === "/" ? "bg-pink-100 " : "text-pink-600"} text-xl inline-block px-4 py-2 text-lg font-normal   no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-gray-800`}>
                                 Home
                             </Link>
                         </li>
                         <li className="mr-3 nav__item" >
-                            <Link href="/"  className={`${active === '/about' ? "bg-pink-100 " : "text-pink-600"} "inline-block px-4 py-2 text-lg font-normal 0 no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-gray-800`}>
+                            <Link href="/"  className={`${active === '/about' ? "bg-pink-100 " : "text-pink-600"} text-xl inline-block px-4 py-2 text-lg font-normal 0 no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-gray-800`}>
                                 About Us
                             </Link>
                         </li>
                         <li className="mr-3 nav__item">
-                            <Link href="/"  className={`${active === '/comm' ? "bg-pink-100 " : "text-pink-600"} inline-block px-4 py-2 text-lg font-normal no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-gray-800`}>
+                            <Link href="/"  className={`${active === '/comm' ? "bg-pink-100 " : "text-pink-600"} text-xl inline-block px-4 py-2 text-lg font-normal no-underline rounded-md dark:text-gray-200 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-gray-800`}>
                                 Community
                             </Link>
                         </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-                    <Link href="/login" className="px-10 py-2 text-white bg-pink-600 rounded-full md:ml-5 ">
+                    <Link href="/login" className="text-xl px-10 py-2 text-white bg-pink-600 rounded-full md:ml-5 ">
                         Login
                     </Link>
 

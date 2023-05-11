@@ -1,6 +1,9 @@
 import Head from 'next/head';
 import Navbar from "../components/navbar";
-
+import  Hero from  "../components/hero";
+import Section from "@/components/section1";
+import Section2 from "@/components/section2";
+import Section3 from "@/components/section3";
 //Home Page
 const Page = () => {
 
@@ -18,6 +21,11 @@ const Page = () => {
           <link rel="icon" href="/logo.png" />
         </Head>
         <Navbar />
+        <Hero />
+        <Section/>
+        <Section2/>
+        <Section3/>
+
 
       </>
     </>
