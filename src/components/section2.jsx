@@ -6,7 +6,7 @@ import Image from "next/image";
 const Section = () => {
     return (
         <>
-            <Container className="flex flex-wrap  mb-24">
+            <Container className="flex flex-wrap  mb-10">
 
                 <div className="flex items-end w-full lg:w-1/2">
                     <div className="max-w-2xl mb-8">
